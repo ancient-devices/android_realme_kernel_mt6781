@@ -58,7 +58,7 @@ cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
 zip -r9 Cosmos-kernel-1.0-spaced.zip *
 curl -sL https://git.io/file-transfer | sh
-./transfer anon Cosmos-kernel-1.0-spaced.zip
+./transfer fio Cosmos-kernel-1.0-spaced.zip
 }
 
 compile
