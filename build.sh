@@ -56,9 +56,9 @@ function zupload()
 git clone --depth=1 https://github.com/HELLINFIX/AnyKernel3.git AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
-zip -r9 Cosmos-kernel-1.0-spaced.zip *
+zip -r9 InfixKernel-spaced-1.0-spaced.zip *
 curl -sL https://git.io/file-transfer | sh
-./transfer fio Cosmos-kernel-1.0-spaced.zip
+./transfer fio InfixKernel-spaced-1.0-spaced.zip
 }
 
 compile
